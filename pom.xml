@@ -12,6 +12,7 @@
     <modules>
         <module>eureka-server</module>
         <module>workload</module>
+        <module>training</module>
     </modules>
 
     <name>trainer-services</name>
