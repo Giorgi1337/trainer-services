@@ -5,6 +5,16 @@ spring:
   application:
     name: workload-service
 
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    packages:
+      trust-all: true
+
+queues:
+  training: training.queue
+
 eureka:
   client:
     register-with-eureka: true
