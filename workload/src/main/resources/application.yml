@@ -5,6 +5,12 @@ spring:
   application:
     name: workload-service
 
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: workloaddb
+
   activemq:
     broker-url: tcp://localhost:61616
     user: admin
