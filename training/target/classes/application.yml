@@ -1,15 +1,9 @@
 server:
-  port: 8081
+  port: 8082
 
 spring:
   application:
-    name: workload-service
-
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: workloaddb
+    name: training-service
 
   activemq:
     broker-url: tcp://localhost:61616
